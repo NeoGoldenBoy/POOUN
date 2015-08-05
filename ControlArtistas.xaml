@@ -1,0 +1,14 @@
+<UserControl x:Class="MusicStore.ControlArtistas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="169" d:DesignWidth="172">
+    <StackPanel>
+        <Line Height="10"></Line>
+        <Image Height="128" Width="128" Stretch="Fill" Name="ImagenArtista"></Image>
+        <Line Height="10"></Line>
+        <Label Width="128" Name="lblArtista"></Label>
+    </StackPanel>
+</UserControl>
