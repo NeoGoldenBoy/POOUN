@@ -1,0 +1,16 @@
+<Window x:Class="MusicStore.Carrito"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Carrito" Height="381" Width="553">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Name="panelArtistas" Grid.Column="0"></StackPanel>
+        <StackPanel Grid.Column="1"></StackPanel>
+        <StackPanel Grid.Column="2"></StackPanel>
+        
+    </Grid>
+</Window>
