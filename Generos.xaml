@@ -1,0 +1,22 @@
+<Window x:Class="MusicStore.Generos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Generos" Height="170" Width="314">
+    <TabControl>
+        <TabItem Header="Agregar">
+            <ItemsControl>
+                <Label>Descripcion</Label>
+                <TextBox></TextBox>
+                <Button>Agregar</Button>
+            </ItemsControl>
+        </TabItem>
+        <TabItem Header="modificar">
+            <ItemsControl>
+                <Label>Descripcion</Label>
+                <TextBox></TextBox>
+                <Button>Buscar</Button>
+                <DataGrid></DataGrid>
+            </ItemsControl>
+        </TabItem>
+    </TabControl>
+</Window>
